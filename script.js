@@ -6,9 +6,7 @@ function pesquisar(){
     menuItens = menu.getElementsByTagName("li")
     for(var i=0;i<menuItens.length;i++){
         links = menuItens[i].getElementsByTagName("a")[0]
-        if(links.innerHTML.toUpperCase().indexOf(filtro)>-1){
-            menuItens[i].style.display=""
-        }else{
+        if(links.innerHTML.toUpperCase().indexOf(filtro)<0){
             menuItens[i].style.display="none"
         }
     }
