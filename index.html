@@ -8,27 +8,10 @@
     <meta name="author" content="Jorge C. P.(2435)">
 </head>
 <body>
-    <nav class="menuConteiner borda">
+    <nav class="menuConteiner borda" id="menuContainer">
         <h2>Menu com pesquisa interna</h2>
-        <input type="text" name="" id="pesquisa" onkeyup="pesquisar()" placeholder="Pesquisa.." title="digite uma opção">
-        <ul id="menu">
-            <li><a href=""></a></li>
-            <li><a href="">Python</a></li>
-            <li><a href="">CSS</a></li>
-            <li><a href="http://cpsoftwarecompany.epizy.com">CP Software Company</a></li>
-            <li><a href="">JavaScript</a></li>
-            <li><a href="">PHP</a></li>
-            <li><a href="">C++</a></li>
-            <li><a href="">Qt Creator</a></li>
-            <li><a href="">C# Completo</a></li>
-            <li><a href="">Arduino</a></li>
-            <li><a href="">AppInvetor</a></li>
-            <li><a href="">Flash</a></li>
-            <li><a href="">Assembly</a></li>
-            <li><a href="">TypeScript</a></li>
-            <li><a href="">Júlia</a></li>
-            <li><a href="">JPL</a></li>
-        </ul>
+        <input type="text" name="" id="pesquisa" onkeyup="pesquisar(this)" placeholder="Pesquisa.." title="digite uma opção">
+        <ul id="menu"></ul>
     </nav>
     <script src="script.js"></script>
 </body>
